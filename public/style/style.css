@@ -18,8 +18,7 @@ input:focus {
 .main_container {
   height: 100vh;
   width: 100%;
-  background-color:#0a91db;
-  
+  background-color: #0a91db;
 }
 
 .introduction_page {
@@ -28,7 +27,7 @@ input:focus {
   justify-content: center;
   width: 100%;
   height: 100%;
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .introduction_page_box {
@@ -79,7 +78,6 @@ input:focus {
 
 select:focus {
   outline: none;
- 
 }
 
 .chat_page {
@@ -88,14 +86,14 @@ select:focus {
   justify-content: center;
   width: 100%;
   height: 100%;
-  background-image: url('bg.png');
-  background-repeat:no-repeat;
-  background-color: rgba(0,0,0,0.5);
+  background-image: url("bg.png");
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .username_label {
   font-size: 32px;
-  font-family:'orbitron';
+  font-family: "orbitron";
   position: absolute;
   top: 100px;
   left: 130px;

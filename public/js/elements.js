@@ -56,6 +56,11 @@ const getRoomchatMessage = (data) => {
     return messageContainer;
 }
 
+const chatDown = (id) => {
+    const chatbox = document.getElementById(id);
+    chatbox.height = '0px';
+}
+
 export default {
     getChatbox,
     getGroupchatMessage,
